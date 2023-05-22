@@ -3,6 +3,7 @@
 
 void ik_2R(float xbyb[], float l1l2[], float xy[], int sol, float op_th1th2[]);
 void ik_5bar(float xbLybLxbRybR[], float l1l2l3l4[], float xy[], int sols[], float op_th1th2[]);
+// Add your own trajectory function here instead of circle
 void circle(float centre_xy[], float rad, float ang_deg, float op_xy[]);
 
 Servo myservoL, myservoR;
